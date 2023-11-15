@@ -1,0 +1,56 @@
+.square1{
+    display:inline-block;
+    vertical-align: bottom;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 125, 238);
+}
+
+.square2{
+    display: inline-block;
+    vertical-align:bottom;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 233, 125);   
+}
+
+.square3{
+    display: inline-block;
+    vertical-align:bottom;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(125, 125, 255);
+}
+
+.square4{
+    display: inline-block;
+    vertical-align:bottom;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+}
+
+body{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 10px;
+    margin-left: 200px;
+}
+
+@media (max-width:400px) {
+    .square1{
+        width: 100%;
+    }
+    .square2{
+        width: 20%;
+    }
+    .square3{
+        width: 50%;
+    }
+    .square4{
+        width: 25%;
+    }
+}
+
+
+    
